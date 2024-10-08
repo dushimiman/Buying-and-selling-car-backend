@@ -10,6 +10,7 @@ const carSchema = new mongoose.Schema({
   fuelType: String,
   transmission: String,
   carCondition: String,
+  description: String,
   carImages: [String], // Store Base64 encoded images as strings
   fullName: String,
   address: String,
